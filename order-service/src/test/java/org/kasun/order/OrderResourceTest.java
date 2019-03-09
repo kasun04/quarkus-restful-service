@@ -14,8 +14,7 @@ public class OrderResourceTest {
         given()
           .when().get("/order")
           .then()
-             .statusCode(200)
-             .body(is("hello"));
+             .statusCode(200);
     }
 
 }
